@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-               checkout([$class: 'GitSCM', branches: [[name: '**']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/cmonthe2/Module_terrafom-.git']]])
+               checkout([$class: 'GitSCM', branches: [[name: '**']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/igortchatcho/my_Ec2']]])
             }
         }
         
